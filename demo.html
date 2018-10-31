@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script type="text/javascript" src="index.js"></script>
+        <link rel=stylesheet type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s4">
+                <div class="row">
+                    <form class="row">
+                        <div class="row">
+                            <div class="input-field">
+                                <input placeholder="input your account" id="account" type="text" class="validate">
+                                <label >Account</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field">
+                                <input placeholder="input your password" id="password" type="password" class="validate">
+                                <label >Password</label>
+                            </div>
+                        </div>
+                        <a class="waves-effect waves-light btn" onclick="check()">login</a>
+                        <a id='tips' >Here</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s4">
+                <a class="waves-effect waves-light btn" id="test1">test1</a>
+                <a class="waves-effect waves-light btn" id="test2">test2</a>
+            </div>
+        </div>
+        
+    </body>
+</html>
